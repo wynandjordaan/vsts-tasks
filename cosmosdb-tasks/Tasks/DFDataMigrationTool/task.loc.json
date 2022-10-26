@@ -1,9 +1,9 @@
 {
-  "id": "BCB9BCD6-0DCC-4C3A-8E13-C900DF4DD6D9",
-  "name": "DataMigrationTool",
+  "id": "dfc82271-f64a-4794-86ba-f7a359748f7e",
+  "name": "DFDataMigrationTool",
   "friendlyName": "ms-resource:loc.friendlyName",
   "description": "ms-resource:loc.description",
-  "author": "Winvision BV",
+  "author": "Digiflo Solutions",
   "helpMarkDown": "ms-resource:loc.helpMarkDown",
   "category": "Utility",
   "visibility": [
@@ -16,7 +16,7 @@
   "version": {
     "Major": 1,
     "Minor": 0,
-    "Patch": 13
+    "Patch": 26
   },
   "minimumAgentVersion": "1.83.0",
   "instanceNameFormat": "ms-resource:loc.instanceNameFormat",

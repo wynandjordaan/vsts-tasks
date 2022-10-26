@@ -46,7 +46,7 @@ npm run build
 ## Build a specific task (recommended):
 
 ```bash
-node make.js build --task DataMigrationTool
+node make.js build --task DFDataMigrationTool
 ```
 
 ## Run Tests
@@ -67,7 +67,7 @@ node make.js bump
 ## Update version number on a specific task (recommended):
 
 ``` bash
-node make.js bump --task DataMigrationTool
+node make.js bump --task DFDataMigrationTool
 ```
 
 ## Package Tasks:

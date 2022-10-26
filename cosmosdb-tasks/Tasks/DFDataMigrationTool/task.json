@@ -1,10 +1,10 @@
 {
-    "id": "BCB9BCD6-0DCC-4C3A-8E13-C900DF4DD6D9",
-    "name": "DataMigrationTool",
-    "friendlyName": "Cosmos DB Data Migration Tool",
+    "id": "dfc82271-f64a-4794-86ba-f7a359748f7e",
+    "name": "DFDataMigrationTool",
+    "friendlyName": "DF Cosmos DB Data Migration Tool",
     "description": "With the Azure Cosmos DB Data Migration tool, you can easily migrate data to Azure Cosmos DB",
-    "author": "Winvision BV",
-    "helpMarkDown": "[Support](https://github.com/Winvision/vsts-tasks)",
+    "author": "Digiflo Solutions",
+    "helpMarkDown": "[Support](https://github.com/wynandjordaan/vsts-tasks)",
     "category": "Utility",
     "visibility": [
         "Build",
@@ -16,7 +16,7 @@
     "version": {
         "Major": 1,
         "Minor": 0,
-        "Patch": 13
+        "Patch": 26
     },
     "minimumAgentVersion": "1.83.0",
     "instanceNameFormat": "Cosmos DB Data Migration Tool",

@@ -1,5 +1,5 @@
 {
-  "name": "datamigrationtool",
+  "name": "dfdatamigrationtool",
   "version": "0.1.0",
   "description": ".Net Core Installer",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Winvision/vsts-tasks.git"
+    "url": "git+https://github.com/wynandjordaan/vsts-tasks.git"
   },
   "keywords": [
     "VSTS",
     "Tasks",
     "CosmosDB"
   ],
-  "author": "Winvision BV",
+  "author": "Digiflo Solutions",
   "license": "MIT",
   "dependencies": {
     "@types/mocha": "^5.2.5",

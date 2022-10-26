@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Winvision/vsts-tasks"
+    "url": "https://github.com/wynandjordaan/vsts-tasks"
   },
   "keywords": [
     "vsts",
@@ -22,7 +22,7 @@
     "release",
     "cosmosdb"
   ],
-  "author": "Winvision BV",
+  "author": "Digiflo Solutions",
   "devDependencies": {
     "@types/mocha": "5.2.0",
     "@types/node": "^10.5.4",
