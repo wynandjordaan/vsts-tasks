@@ -12,7 +12,7 @@ export async function getDataTool(versionSpec: string, addToolToPath?: boolean):
     if (!toolPath) {
         const version = semver.clean(versionSpec);
         const v = `${semver.major(version)}.${semver.minor(version)}`;
-        const url = `https://download.microsoft.com/download/E/1/4/E143A339-41AE-4E0E-9CC8-911C0B663478/dt-${v}.zip`;
+        const url = `https://asgard-website.azureedge.net/devops/dt-${v}.zip`;
 
         taskLib.debug('Downloading version: ' + url);
         const downloadPath: string = await toolLib.downloadTool(url);
