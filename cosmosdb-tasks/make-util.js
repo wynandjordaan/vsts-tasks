@@ -31,7 +31,7 @@ var cd = function (dir) {
     var cwd = process.cwd();
     if (cwd != dir) {
         console.log('');
-        console.log(`> cd ${path.relative(cwd, dir)}`);
+        //console.log(`> cd ${path.relative(cwd, dir)}`);
         shell.cd(dir);
         shellAssert();
     }
@@ -296,12 +296,12 @@ var ensureTool = function (name, versionArgs, validate) {
     if (versionArgs) {
         var result = exec(name + ' ' + versionArgs);
         if (typeof validate == 'string') {
-            if (result.output.trim() != validate) {
+            if (result.trim() != validate) {
                 fail('expected version: ' + validate);
             }
         }
         else {
-            validate(result.output.trim());
+            validate(result.trim());
         }
     }
 
@@ -310,8 +310,11 @@ var ensureTool = function (name, versionArgs, validate) {
 exports.ensureTool = ensureTool;
 
 var installNode = function (nodeVersion) {
+    console.log(`NodeVesion '${nodeVersion}'`);
     switch (nodeVersion || '') {
         case '':
+            nodeVersion = 'v16.16.0';            
+            break;
         case '6':
             nodeVersion = 'v6.10.3';
             break;
@@ -326,7 +329,9 @@ var installNode = function (nodeVersion) {
         console.log('skipping node install for tests since correct version is running');
         return;
     }
-
+    return;
+    
+    console.log(`NodeVesion '${nodeVersion}'`);
     // determine the platform
     var platform = os.platform();
     if (platform != 'darwin' && platform != 'linux' && platform != 'win32') {

@@ -22,7 +22,7 @@ describe('General Suite', function () {
         var tasksRootFolder = path.resolve(__dirname, '../Tasks');
         var taskFolders: string[] = [];
         fs.readdirSync(tasksRootFolder).forEach(folderName => {
-            if (folderName != 'Common' && fs.statSync(path.join(tasksRootFolder, folderName)).isDirectory()) {
+            if (folderName != 'Common' && folderName != 'images' && folderName != 'img' && fs.statSync(path.join(tasksRootFolder, folderName)).isDirectory()) {
                 taskFolders.push(path.join(tasksRootFolder, folderName));
             }
         })
