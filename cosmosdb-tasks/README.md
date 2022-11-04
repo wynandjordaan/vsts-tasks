@@ -75,3 +75,9 @@ node make.js bump --task DFDataMigrationTool
 ``` bash
 npm run package
 ```
+
+
+## VSIX run in the .\_build\Tasks folder
+``` bash
+tfx extension create --manifest-globs vss-extension.json
+```
