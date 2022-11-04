@@ -1,6 +1,6 @@
 {
     "tasks": [
-        "DataMigrationTool"
+        "DFDataMigrationTool"
     ],
     "taskResources": [
         "*.ps1",
